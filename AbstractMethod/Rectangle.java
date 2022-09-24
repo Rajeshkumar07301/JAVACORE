@@ -1,16 +1,16 @@
 package com.rays.AbstractMethod;
 
-public class Rectangle {
+public class Rectangle extends Shape  {
 	private int length;
 	private int width;
 
-//	public Rectangle() {
-//	}
-//
-//	Rectangle(int l, int w) {
-//		length = l;
-//		width = w;
-//	}
+	public Rectangle() {
+	}
+
+	Rectangle(int l, int w) {
+		length = l;
+		width = w;
+	}
 
 	public double area() {
 		double Rarr = length * width;

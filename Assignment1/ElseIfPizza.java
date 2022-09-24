@@ -1,4 +1,4 @@
-package com.rays.basics;
+package com.rays.Assignment1;
 
 public class ElseIfPizza {
 	public static void main(String[]args) {
